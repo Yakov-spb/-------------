@@ -1,8 +1,9 @@
-import numpy as np
-from matplotlib import pyplot as plt
+
 #точка разрыва
 d = 0
-w=1
+w=0
+import numpy as np
+from matplotlib import pyplot as plt
 x_left = np.linspace(-2, d - 0.08, 2000)  # Левее точки разрыва
 x_right = np.linspace( d + 0.08, 2, 2000)
 
